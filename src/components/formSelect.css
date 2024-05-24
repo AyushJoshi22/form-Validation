@@ -1,0 +1,22 @@
+.formSelect{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+select{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.formSelect label{
+    font-size: 12px;
+    color: gray;
+    margin-right: 50px;
+}
+
+.formSelect option::placeholder{
+    color: gray;
+}
